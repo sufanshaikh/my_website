@@ -3,17 +3,17 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Installing..."
+      - echo Installing...
 
   build:
     commands:
-      - echo "Building..."
+      - echo Building website...
 
   post_build:
     commands:
-      - echo "Build completed"
+      - echo Build completed
 
 artifacts:
   files:
     - '**/*'
-  discard-paths: no
+  base-directory: .
